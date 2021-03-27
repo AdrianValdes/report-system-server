@@ -8,6 +8,12 @@
 
 > A mini-server for the spam protection team with lowdb
 
+Comments on the server implementation:
+
+1. I decided to use a simple data base like lowdb because I thought using something like MongoDB would have been and overkill for the required task.
+
+2. I used a single error handler for all the errors for the same reason, the tasks are simple and straight forward and I thought it was not strictly necessary in this case to make a separated controller to handle individual errors. I would improve this first in case was needed.
+
 ## Install
 
 ```sh
